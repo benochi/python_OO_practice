@@ -5,19 +5,19 @@ class WordFinder:
     """Finds random words from file
     
     wf = WordFinder("words.txt")
-    3 words read
+    235886 words read
 
     >>> wf.random()
-    'cat'
+    
 
     >>> wf.random()
-    'cat'
+    
 
     >>> wf.random()
-    'porcupine'
+    
 
     >>> wf.random()
-'   dog'"""
+'   '"""
     #t is instantiated with a path to a file on disk that contains words, one word per line
     def __init__(self, path):
         """opens file and prints words"""
@@ -39,11 +39,10 @@ class WordFinder:
 class SpecialWordFinder(WordFinder):
     """Wordfinder to ignore blanks and comments.
     
-    swf = SpecialWordFinder("text.txt")
-    3 words read
+    swf = SpecialWordFinder("complex.txt")
+    4 words read
 
-    >>>swf.random() in ["cat", "porcupine", "dog"]
-    True
+    >>>swf.random() 
     """
 
     def list_words(self, open_file):
