@@ -25,7 +25,7 @@ class SerialGenerator:
 
     def __repr__():
         "Representation of class"
-        return f"<SerialGenerator> start={self.start} next={self.next}"
+        return f"<SerialGenerator> start={self.start} next={self.next}>"
     
     def generate(self):
         "Return next serial by incrementing"
