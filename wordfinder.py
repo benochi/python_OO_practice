@@ -39,10 +39,10 @@ class WordFinder:
 class SpecialWordFinder(WordFinder):
     """Wordfinder to ignore blanks and comments.
     
-    swf = SpecialWordFinder("complex.txt")
+    swf = SpecialWordFinder("text.txt")
     3 words read
 
-    >>>swf.random() in ["pear", "carrot", "kale"]
+    >>>swf.random() in ["cat", "bear", "dog"]
     True
     """
 
