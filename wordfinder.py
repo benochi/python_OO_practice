@@ -42,7 +42,7 @@ class SpecialWordFinder(WordFinder):
     swf = SpecialWordFinder("text.txt")
     3 words read
 
-    >>>swf.random() in ["cat", "bear", "dog"]
+    >>>swf.random() in ["cat", "porcupine", "dog"]
     True
     """
 
